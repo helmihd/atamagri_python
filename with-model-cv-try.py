@@ -43,7 +43,7 @@ class DroneController:
         # Load the TensorFlow model for face recognition
         self.face_net = cv2.dnn.readNetFromTensorflow(
             'frozen_inference_graph.pb',
-            'ssd_mobilenet_v1_coco_2017_11_17.pbtxt'  # Path to configuration file
+            'face_detection_model.pbtxt'  # Path to configuration file
         )
 
         # Create a button to send takeoff and land commands to the drone
