@@ -31,7 +31,7 @@ try:
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
 finally:
-    # Hentikan stream dan matikan koneksi drone
+    # Hentikan stream dan matikan koneksi dasdwrone
     drone.streamoff()
     drone.end()
 
