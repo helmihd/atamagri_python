@@ -5,7 +5,7 @@ from ultralytics import YOLO
 model = YOLO('best.pt')  # Ganti dengan path ke model YOLOv8 Anda
 
 # Load gambar untuk pengujian
-image_path = 'monyet.jpg'  # Ganti dengan path gambar Anda
+image_path = 'babi.jpg'  # Ganti dengan path gambar Anda
 img = cv2.imread(image_path)
 
 # Deteksi objek dengan YOLO
